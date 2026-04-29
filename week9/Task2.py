@@ -1,7 +1,7 @@
 from cs1robots import *
 
 load_world("../worlds/add34.wld")
-hubo = Robot()
+hubo = Robot(street=2)
 hubo.set_pause(0.1)
 
 def turn_around():
@@ -17,7 +17,9 @@ def turn_right():
     hubo.turn_left()
 
 move_to_wall()
-hubo.turn_left()
+turn_right()
+hubo.move()
+turn_around()
 
 ollim = 0
 while True:
