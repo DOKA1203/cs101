@@ -15,4 +15,4 @@ def pretty_combination(n, r):
 
 pretty_combination(5,2)
 pretty_combination(6,3)
-pretty_combination(4,5)
+pretty_combination(4,5) # r > n 검증

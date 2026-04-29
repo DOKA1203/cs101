@@ -12,3 +12,6 @@ a = 12
 b = 18
 print("%d와 %d의 최대 공약수:" % (a,b), gcd_lcm("gcd", a, b))
 print("%d와 %d의 최소 공배수:" % (a,b), gcd_lcm("lcm", a, b))
+
+# Error
+print(gcd_lcm("er", a, b))
