@@ -4,7 +4,7 @@ load_world("../worlds/6w_2.wld")
 
 hubo = Robot()
 hubo.set_trace("blue")
-hubo.set_pause(0.01)
+hubo.set_pause(0.1)
 
 def turn_right():
     hubo.turn_left()
@@ -32,3 +32,4 @@ hubo.turn_left()
 collect()
 
 print("I did it")
+
